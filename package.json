@@ -1,0 +1,13 @@
+{
+  "name": "gemini-journal-production",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node prod-server.js"
+  },
+  "dependencies": {
+    "@google/genai": "latest",
+    "express": "^4.19.2",
+    "cors": "^2.8.5"
+  }
+}
